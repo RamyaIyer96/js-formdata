@@ -1,0 +1,31 @@
+{
+  "name": "to-formdata",
+  "version": "1.0.0",
+  "description": "Converts json object/array with image upload to formadata in nested level.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamyaIyer96/js-formdata.git"
+  },
+  "keywords": [
+    "javascript",
+    "formdata",
+    "object-to-formdata",
+    "json-to-formdata",
+    "array-to-formdata",
+    "react",
+    "upload-images",
+    "angular",
+    "vue",
+    "javascript-file-upload"
+  ],
+  "author": "Ramya Iyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamyaIyer96/js-formdata/issues"
+  },
+  "homepage": "https://github.com/RamyaIyer96/js-formdata#readme"
+}
