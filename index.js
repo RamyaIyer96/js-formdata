@@ -3,6 +3,10 @@ module.exports = (obj, form, namespace) => {
   let fd = form || new FormData();
   let formKey;
 
+  if (!obj || (!Array.isArray(obj) && typeof obj !== 'object')) {
+    throw new Error("Please provide valid inputs");
+  }
+
   for (let property in obj) {
     if (obj.hasOwnProperty(property) && obj[property]) {
       if (namespace) {
